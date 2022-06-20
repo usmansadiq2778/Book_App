@@ -93,7 +93,7 @@ function Profile({ navigation, route }) {
 
             <View style={{ justifyContent: 'center', alignItems: 'center' }}>
               <TouchableOpacity
-                onPress={() => navigation.navigate('Getdata')}
+                onPress={() => navigation.navigate('CameraComp')}
                 style={[styles.buttonContainer, styles.loginButton]}
               >
                 <Text
